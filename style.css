@@ -1,0 +1,140 @@
+/* stylelint-disable comment-empty-line-before */
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-disable font-family-name-quotes */
+* {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5em;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-color: rgb(47, 193, 139);
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  top: 0;
+  left: 0;
+}
+
+#titulo {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  margin: 10.5px auto;
+}
+
+.sectionModel {
+  background-color: rgba(241, 241, 237, 0.9);
+  border: 1px solid rgb(194, 197, 197);
+  border-radius: 7pt;
+  padding: 25px;
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin: 70px auto;
+  width: 1300px;
+}
+
+.mainContent {
+  width: 800px;
+  display: grid;
+  gap: 10px;
+}
+
+.infoPerfil {
+  display: inline-block;
+  height: fit-content;
+  padding: 0;
+}
+
+.infoPerfil img:first-child {
+  border-radius: 7pt 7pt 0pt 0pt;
+  max-width: 800px;
+}
+
+#minha_foto {
+  display: block;
+  background-size: cover;
+  border-radius: 50%;
+  border: 2px solid rgb(194, 197, 197);
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  margin: -130px auto 5px;
+}
+
+.infoPerfil h2 {
+  text-align: center;
+}
+
+.infoPerfil p , #links {
+  margin: auto 20px 15px;
+}
+
+.infoPerfil a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.listasLicoes ul , ol {
+  padding-left: 50px;
+}
+
+.listasLicoes li {
+  line-height: 1.8em;
+  padding-left: 20px;
+}
+
+.aprendizado {
+  padding: 25px 35px;
+}
+
+.sectionTable {
+  padding-left: 35px;
+}
+
+/*
+  Foi utilizado o modelo de tabela do W3Scools.
+  Ref: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro
+*/
+
+table {
+  border-collapse: collapse;
+  width: fit-content;
+  margin: 40px auto 20px;
+}
+
+td , th {
+  border: 1px solid rgb(221, 221, 221);
+  text-align: center;
+  padding: 8px;
+}
+
+tr:first-child {
+  background-color: rgb(221, 221, 221);
+}
+
+.sideContent {
+  width: 300px;
+}
+
+#rodape {
+  background-color: cadetblue;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+}
+
+#rodape h3 {
+  display: block;
+  text-align: center;
+  margin: 45px auto;
+}

@@ -100,11 +100,6 @@ main {
   padding-left: 35px;
 }
 
-/*
-  Foi utilizado o modelo de tabela do W3Scools.
-  Ref: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro
-*/
-
 table {
   border-collapse: collapse;
   width: fit-content;
